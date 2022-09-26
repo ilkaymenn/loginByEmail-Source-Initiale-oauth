@@ -19,7 +19,7 @@ import { SupabaseAuthClient } from "@supabase/supabase-js/dist/module/lib/Supaba
     <p>Please login if you have an account or register :</p>
     <button @click="login()">Sign In</button><br />
     <button @click="logout()">Sign Out</button><br />
-    <label id="status">You are not logged ! </label>
+    <label id="status">You are not logged !!! </label>
   </header>
 </template>
 
