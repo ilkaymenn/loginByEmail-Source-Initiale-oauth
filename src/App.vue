@@ -66,7 +66,7 @@ export default {
     async loginGithub() {
       try {
         const { user, session, error } = await supabase.auth.signIn({
-          provider: "git-hub",
+          provider: "github",
         });
         if (error) throw error;
       } catch (error) {
